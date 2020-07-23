@@ -1645,11 +1645,9 @@ a.text-danger:hover {
 	color: #2a2a2a;
 }
 .bg-gradient {
-	background-image: linear-gradient(100deg, rgba(71,118,230,1) 0%, rgba(162,63,242,1) 100%); 
-}
-
-.bg-gradient {
-	background-color: salmon;
+	background: linear-gradient(180deg, rgba(230,43,79,1) 0%, rgba(247,145,39,1) 100%);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent; 
 }
 
 .bg-primary {
@@ -7544,11 +7542,6 @@ code {
 	font-size: 18px;
 	line-height: 1.45;
 }
-.lead2 {
-	font-weight: 500;
-	font-size: 18px;
-	line-height: 1.45;
-}
 @media (min-width: 768px) {
 	.lead {
 		font-size: 22px;
@@ -7838,6 +7831,14 @@ a.text-gray-lighter:hover {
 
 .bg-inverse {
 	color: #fff;
+}
+
+.bg-sm {
+	background-color: #e62b4f;
+}
+
+.bg-sm-inverse {
+	color: #e62b4f
 }
 
 .bg-inverse a:not(.btn), .bg-inverse a:not(.btn):hover, .bg-inverse a:not(.btn):focus,

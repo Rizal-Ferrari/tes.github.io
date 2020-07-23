@@ -101,7 +101,7 @@ Author: rustheme
 		height: 80px;
 	}
 
-	.biru {
+	.bg-gray {
 		background-color: #F5F5F5;
 	}
 
@@ -114,7 +114,14 @@ Author: rustheme
 		font-weight: 500;
 		font-size: 24px;
 		line-height: 0.2;
-}
+	}
+	.bold {
+		font-weight: 500;
+	}
+
+	.selected-category > a, .top-nav .selected-page > a {
+    	border-bottom-color: #1a73e8;
+	}
 /*-----------------------------end of style custom*/
 
 
